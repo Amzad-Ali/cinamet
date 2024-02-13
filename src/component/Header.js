@@ -38,8 +38,8 @@ const toggleDarkMode = () => {
 <nav className="bg-white border-b-2 border-gray-200 dark:bg-gray-900 dark:border-b-slate-800">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <Link to="https://flowbite.com/" className="flex items-center">
-      <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
-      <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+      <img src="https://cdn.pixabay.com/photo/2014/04/03/11/07/clapperboard-311792_1280.png" className="h-8 mr-3 rounded-full" alt="#" />
+      <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Moviehub</span>
   </Link>
   <div className="flex md:order-2" id='mobile-nav'>
   <button onClick={toggleDarkMode} data-tooltip-target="navbar-search-example-toggle-dark-mode-tooltip" type="button" data-toggle-dark="light" className="flex items-center p-2 mr-2 text-xs font-medium text-gray-700 bg-white rounded-lg border border-gray-200 toggle-dark-state-example hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-gray-300 dark:focus:ring-gray-500 dark:bg-gray-800 focus:outline-none dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
