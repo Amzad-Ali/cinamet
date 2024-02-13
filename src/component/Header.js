@@ -38,7 +38,7 @@ const toggleDarkMode = () => {
 <nav className="bg-white border-b-2 border-gray-200 dark:bg-gray-900 dark:border-b-slate-800">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <Link to="https://flowbite.com/" className="flex items-center">
-      <img src="https://cdn.pixabay.com/photo/2014/04/03/11/07/clapperboard-311792_1280.png" className="h-8 mr-3 rounded-full" alt="#" />
+      <img src="https://cdn.pixabay.com/photo/2023/06/28/20/04/ai-generated-8095124_1280.png" className="h-8 mr-3 rounded-full" alt="#" />
       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Moviehub</span>
   </Link>
   <div className="flex md:order-2" id='mobile-nav'>
