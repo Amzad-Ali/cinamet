@@ -2,20 +2,20 @@ import React from 'react'
 import { useParams } from 'react-router-dom';
 import { useEffect,useState } from 'react';
 export default function MovieDetail() {
-  // const params = useParams();
-  const param1 = useParams();
+  const params = useParams();
+  // const param1 = useParams();
   const [movie,setMovie] = useState({});
   const image = movie.poster_path ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}` : " " ;
  
   useEffect(() => {
     async function fetchMovieData(){
-      const response = await fetch(`https://api.themoviedb.org/3/movie/${param1.id}?api_key=735ae5b6bde3bfe410c670d344314405`);
+      const response = await fetch(`https://api.themoviedb.org/3/movie/${params.id}?api_key=735ae5b6bde3bfe410c670d344314405`);
       const json = await response.json();
       console.log(json);
       setMovie(json);
     }
     fetchMovieData();
-  },[param1.id]);
+  },[params.id]);
 
   return (
     <main>
